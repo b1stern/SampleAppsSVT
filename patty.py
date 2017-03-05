@@ -403,7 +403,7 @@ def get_delay_one():
 
 @app.route('/shop', methods=['GET'])
 def get_delay_two():
-    time.sleep(8)
+    time.sleep(1)
     return jsonify({'API:': 'shop'})
 
 @app.route('/checkout', methods=['GET'])
