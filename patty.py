@@ -437,7 +437,7 @@ def get_delay_eight():
     return jsonify({'API:': 'Authenticate'})
 
 @app.route('/delay/api/nine', methods=['GET'])
-def get_delay_nine():
+def get_delay_nine(): 
     time.sleep(9)
     return jsonify({'Delay:': 'Nine seconds'})
 
